@@ -196,3 +196,22 @@ a:hover {
   color: var(--accent2);
 }
 
+/* ===== Diagrams & Images ===== */
+.diagram-img{
+  width: 100%;
+  max-width: 760px;
+  display: block;
+  margin: 12px auto;
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+}
+
+.caption{
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--muted);
+  text-align: center;
+  line-height: 1.5;
+}
+
